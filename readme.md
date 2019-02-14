@@ -4,13 +4,20 @@
 
 This repository is meant to help you get certified in Microsoft Azure. It contains various resources and links to help you level up in developing applications for Microsoft Azure. Feel free to help out with new resources if you find any relevant ones.
 The information in this repository is basedo on the skills measured in the exam.
-You can read the details here on the Microsoft website: [Exam AZ-203: Developing Solutions for Microsoft Azure](https://www.microsoft.com/en-us/learning/exam-AZ-203.aspx)
+You can read the details here on the Microsoft website: 
+[Exam AZ-203: Developing Solutions for Microsoft Azure](https://www.microsoft.com/en-us/learning/exam-AZ-203.aspx)
 
 ## Getting Started
 Azure can be quite intimidating because of the vast amount of services and options.
 Therefore it would make sense to choose a specific learning path in order to learn how Azure can be used within the area you work in.
 I would recommend everyone getting started with Azure to visit the [Microsoft Learn](https://docs.microsoft.com/en-us/learn/) portal. The portal is a great resource for getting familiar with services in Azure.
 
+The exam consists of these areas:
+* Develop Azure Infrastructure as a Service Compute Solutions (10-15%)
+* Develop Azure Platform as a Service Compute Solutions (20-25%)
+* Develop for Azure storage (15-20%)
+* Implement Azure security (10-15%)
+* Connect to and Consume Azure Services and Third-party Services (20-25%)
 
 ## Develop Azure Infrastructure as a Service Compute Solutions (10-15%)
 
@@ -37,22 +44,34 @@ I would recommend everyone getting started with Azure to visit the [Microsoft Le
   * [Kubernetes - Quickstart - CLI](https://docs.microsoft.com/en-us/azure/aks/kubernetes-walkthrough)
   * [Kubernetes - Quickstart - Portal](https://docs.microsoft.com/en-us/azure/aks/kubernetes-walkthrough-portal)
 * Create container images for solutions
+  * [Container Registry - Tutorial](https://docs.microsoft.com/en-us/azure/container-registry/container-registry-tutorial-quick-task)
+  * [Automate image builds](https://docs.microsoft.com/en-us/azure/container-registry/container-registry-tutorial-build-task)
 * Publish an image to the Azure Container Registry
+  * [Push Docker image](https://docs.microsoft.com/en-us/azure/container-registry/container-registry-get-started-docker-cli)
 * Run containers by using Azure Container Instance or AKS
+  * [Run container - tutorial](https://docs.microsoft.com/en-us/azure/container-instances/container-instances-quickstart-portal)
 
 ## Develop Azure Platform as a Service Compute Solutions (20-25%)
 
 ### Create Azure App Service Web Apps
 * Create an Azure App Service Web App
+  * [Create app service](https://docs.microsoft.com/en-us/azure/app-service/environment/app-service-web-how-to-create-a-web-app-in-an-ase)
 * Create an Azure App Service background task by using WebJobs
+  * [Create a webjob](https://docs.microsoft.com/en-us/azure/app-service/webjobs-create)
 * Enable diagnostics logging
+  * [Enable diagnostics logging](https://docs.microsoft.com/en-us/azure/app-service/troubleshoot-diagnostic-logs)
+
 ### Create Azure App Service mobile apps
 * Add push notifications for mobile apps
+  * [Notification Hub](https://docs.microsoft.com/en-us/azure/notification-hubs/)
 * Enable offline sync for mobile app
+  * [Offline sync for mobile apps](https://docs.microsoft.com/en-us/azure/app-service-mobile/app-service-mobile-offline-data-sync)
 * Implement a remote instrumentation strategy for mobile devices
+
 ### Create Azure App Service API apps
 * Create an Azure App Service API app
 * Create documentation for the API by using open source and other tools
+
 ### Implement Azure functions
 * Implement input and output bindings for a function
 * Implement function triggers by using data operations, timers, and webhooks
