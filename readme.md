@@ -16,8 +16,13 @@ I would recommend everyone getting started with Azure to visit the [Microsoft Le
 
 ### Implement solutions that use virtual machines (VM)
 * Provision VMs
+  * [Create VM - Portal](https://docs.microsoft.com/en-us/azure/virtual-machines/windows/quick-create-portal)
+  * [Create VM - Powershell](https://docs.microsoft.com/en-us/azure/virtual-machines/windows/quick-create-powershell)
+  * [Create VM - CLI](https://docs.microsoft.com/en-us/azure/virtual-machines/windows/quick-create-cli)
 * Create ARM templates
+  * [ARM - Structure and syntax](https://docs.microsoft.com/en-us/azure/azure-resource-manager/resource-group-authoring-templates)
 * Configure Azure Disk Encryption for VMs
+  * [Azure Disk Encryption](https://docs.microsoft.com/en-us/azure/security/azure-security-disk-encryption-overview)
 
 ### Implement batch jobs by using Azure Batch Services
 * Manage batch jobs by using Batch Service API
@@ -29,6 +34,8 @@ I would recommend everyone getting started with Azure to visit the [Microsoft Le
 
 ### Create containerized solutions
 * Create an Azure Managed Kubernetes Service (AKS) cluster
+  * [Kubernetes - Quickstart - CLI](https://docs.microsoft.com/en-us/azure/aks/kubernetes-walkthrough)
+  * [Kubernetes - Quickstart - Portal](https://docs.microsoft.com/en-us/azure/aks/kubernetes-walkthrough-portal)
 * Create container images for solutions
 * Publish an image to the Azure Container Registry
 * Run containers by using Azure Container Instance or AKS
@@ -122,6 +129,12 @@ I would recommend everyone getting started with Azure to visit the [Microsoft Le
 ### Develop message-based solutions
 * Implement solutions that use Azure Service Bus
 * Implement solutions that use Azure Queue Storage queues
+
+## Flash Cards (Tinycards) for Practicing
+
+I have create a set of Tinycards to help you practice for the exam. However, the exam does require you to code. The cards will therefore only be for yourself to practice knowledge regarding central concepts of the subjects.
+
+[EXAM AZ-203: Flash Cards for Practicing](https://tiny.cards/decks/KXxGMwAe/exam-az-203-developing-solutions-for-azure)
 
 ## Contributing
 This project was created to keep a centralized place for all the resources I needed to become proficient in Azure. Feel free to suggest or add other resources that might be relevant or let me know if some of the resources are unavailable.
