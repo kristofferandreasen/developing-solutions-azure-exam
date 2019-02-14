@@ -21,8 +21,11 @@ I would recommend everyone getting started with Azure to visit the [Microsoft Le
 
 ### Implement batch jobs by using Azure Batch Services
 * Manage batch jobs by using Batch Service API
+  * [Batch service](https://docs.microsoft.com/en-us/rest/api/batchservice/)
 * Run a batch job by using Azure CLI, Azure portal, and other tools
+  * [Run batch service with CLI](https://docs.microsoft.com/en-us/azure/batch/quick-create-cli)
 * Write code to run an Azure Batch Services batch job
+  * [Code a batch service](https://docs.microsoft.com/en-us/azure/batch/quick-run-dotnet)
 
 ### Create containerized solutions
 * Create an Azure Managed Kubernetes Service (AKS) cluster
