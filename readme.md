@@ -9,14 +9,16 @@ Azure can be quite intimidating because of the vast amount of services and optio
 Therefore it would make sense to choose a specific learning path in order to learn how Azure can be used within the area you work in.
 I would recommend everyone getting started with Azure to visit the [Microsoft Learn](https://docs.microsoft.com/en-us/learn/) portal. The portal is a great resource for getting familiar with services in Azure.
 
-## Develop for cloud storage
+
+## **Develop for cloud storage**
 
 ### Develop solutions that use file storage
 * Implement quotas for file shares in storage account
   * [Link - Storage Files FAQ](https://docs.microsoft.com/en-us/azure/storage/files/storage-files-faq)
   * [Link - .NET - How to use files](https://docs.microsoft.com/en-us/azure/storage/files/storage-dotnet-how-to-use-files)
 
-## Create Platform as a Service (PaaS) Solutions
+
+## **Create Platform as a Service (PaaS) Solutions**
 
 ### Create an app service Logic App
 * Create a custom connector for Logic Apps, a custom template for a Logic App
@@ -29,22 +31,24 @@ I would recommend everyone getting started with Azure to visit the [Microsoft Le
 
 ### Create app or service that runs on Service Fabric
 * Develop a stateful Reliable Service and a stateless Reliable Service
-* https://docs.microsoft.com/en-us/azure/service-fabric/
-* https://docs.microsoft.com/en-us/azure/service-fabric/service-fabric-tutorial-create-dotnet-app
+  * [Link - Service Fabric](https://docs.microsoft.com/en-us/azure/service-fabric/)
+  * [Link - Create .NET App](https://docs.microsoft.com/en-us/azure/service-fabric/service-fabric-tutorial-create-dotnet-app)
 * Develop an actor-based Reliable Service
-* https://docs.microsoft.com/en-us/azure/service-fabric/service-fabric-reliable-actors-introduction
+  * [Link - Reliable Actors - Introduction](https://docs.microsoft.com/en-us/azure/service-fabric/service-fabric-reliable-actors-introduction)
 * Write code to consume Reliable Collections in your service
-* https://docs.microsoft.com/en-us/azure/service-fabric/service-fabric-reliable-actors-get-started
+  * [Link - Reliable Actors - Get Started](https://docs.microsoft.com/en-us/azure/service-fabric/service-fabric-reliable-actors-get-started)
+
 ### Schedule bulk operations
 * Define the batch output and conditions by using Batch Service API
-* https://docs.microsoft.com/en-us/rest/api/batchservice/
-* write code to run a batch job
-* https://docs.microsoft.com/en-us/azure/batch/quick-run-dotnet
+  * [Link - Batch Service](https://docs.microsoft.com/en-us/rest/api/batchservice/)
+* Write code to run a batch job
+  * [Link - Get Started - .NET](https://docs.microsoft.com/en-us/azure/batch/quick-run-dotnet)
 * Run a batch job by using Azure CLI, Azure Portal, and other tools
-* https://docs.microsoft.com/en-us/azure/batch/quick-create-cli
+  * [Link - Batch Service - Azure CLI](https://docs.microsoft.com/en-us/azure/batch/quick-create-cli)
+
 ### Design and develop applications that run in containers
 * Configure diagnostic settings on resources
-* https://docs.microsoft.com/en-us/azure/azure-monitor/platform/diagnostic-logs-overview
+  * [Link - Diagnostic Logs Overview](https://docs.microsoft.com/en-us/azure/azure-monitor/platform/diagnostic-logs-overview)
 * Create a container image by using a Docker file
 * Create an Azure Container Service (ACS/AKS) cluster by using the Azure CLI and Azure Portal
 * Publish an image to the Azure Container Registry
