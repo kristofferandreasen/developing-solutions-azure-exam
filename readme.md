@@ -19,6 +19,8 @@ The exam consists of these areas:
 * Implement Azure security (10-15%)
 * Connect to and Consume Azure Services and Third-party Services (20-25%)
 
+Each area will be described with links to the individual subjects.
+
 ## Develop Azure Infrastructure as a Service Compute Solutions (10-15%)
 
 ### Implement solutions that use virtual machines (VM)
@@ -70,84 +72,144 @@ The exam consists of these areas:
 
 ### Create Azure App Service API apps
 * Create an Azure App Service API app
+  * [ASP.NET Core API Project](https://docs.microsoft.com/en-us/aspnet/core/tutorials/first-web-api?view=aspnetcore-2.2&tabs=visual-studio)
 * Create documentation for the API by using open source and other tools
+  * [Document API](https://docs.microsoft.com/en-us/aspnet/core/tutorials/web-api-help-pages-using-swagger?view=aspnetcore-2.2)
 
 ### Implement Azure functions
 * Implement input and output bindings for a function
+  * []()
 * Implement function triggers by using data operations, timers, and webhooks
+  * []()
 * Implement Azure Durable Functions
+  * []()
 * Create Azure Function apps by using Visual Studio
+  * []()
 
 ## Develop for Azure storage (15-20%)
 
 ### Develop solutions that use storage tables
 * Design and implement policies for tables
+  * []()
 * Query table storage by using code
+  * []()
 * Implement partitioning schemes
+  * []()
 ### Develop solutions that use Cosmos DB storage
 * Create, read, update, and delete data by using appropriate APIs
+  * []()
 * Implement partitioning schemes
+  * []()
 * Set the appropriate consistency level for operations
+  * []()
+
 ### Develop solutions that use a relational database
 * Provision and configure relational databases
+  * []()
 * Configure elastic pools for Azure SQL Database
+  * []()
 * Create, read, update, and delete data tables by using code
+  * []()
+
 ### Develop solutions that use blob storage
 * Move items in blob storage between storage accounts or containers
+  * []()
 * Set and retrieve properties and metadata
+  * []()
 * Implement blob leasing
+  * []()
 * Implement data archiving and retention
+  * []()
 
 ## Implement Azure security (10-15%)
 
 ### Implement authentication
 * Implement authentication by using certificates, forms-based authentication, or tokens
+  * []()
 * Implement multi-factor or Windows authentication by using Azure AD
+  * []()
 * Implement OAuth2 authentication
+  * []()
 * Implement Managed Service Identity (MSI)/Service Principal authentication
+  * []()
+
 ### Implement access control
 * Implement CBAC (Claims-Based Access Control) authorization
+  * []()
 * Implement RBAC (Role-Based Access Control) authorization
+  * []()
 * Create shared access signatures
+  * []()
+
 ### Implement secure data solutions
 * Encrypt and decrypt data at rest and in transit
+  * []()
 * Create, read, update, and delete keys, secrets, and certificates by using the KeyVault API
+  * []()
 
 ## Monitor, troubleshoot, and optimize Azure solutions (15-20%)
 
 ### Develop code to support scalability of apps and services
 * Implement autoscaling rules and patterns
+  * []()
 * Implement code that handles transient faults
+  * []()
+
 ### Integrate caching and content delivery within solutions
 * Store and retrieve data in Azure Redis cache
+  * []()
 * Develop code to implement CDNs in solutions
+  * []()
 * Invalidate cache content (CDN or Redis)
+  * []()
+
 ### Instrument solutions to support monitoring and logging
 * Configure instrumentation in an app or service by using Application Insights
+  * []()
 * Analyze and troubleshoot solutions by using Azure Monitor
+  * []()
 * Implement Application Insights Web Test and Alerts
+  * []()
 
 ## Connect to and Consume Azure Services and Third-party Services (20-25%)
 
 ### Develop an App Service Logic App
 * Create a Logic App
+  * []()
 * Create a custom connector for Logic Apps
+  * []()
 * Create a custom template for Logic Apps
+  * []()
+
 ### Integrate Azure Search within solutions
 * Create an Azure Search index
+  * []()
 * Import searchable data
+  * []()
 * Query the Azure Search index
+  * []()
+
 ### Establish API Gateways
 * Create an APIM instance
+  * []()
 * Configure authentication for APIs
+  * []()
 * Define policies for APIs
+  * []()
+
 ### Develop event-based solutions
 * Implement solutions that use Azure Event Grid
+  * []()
 * Implement solutions that use Azure Notification Hubs
+  * []()
 * Implement solutions that use Azure Event Hub
+  * []()
+
 ### Develop message-based solutions
 * Implement solutions that use Azure Service Bus
+  * []()
 * Implement solutions that use Azure Queue Storage queues
+  * []()
 
 ## Flash Cards (Tinycards) for Practicing
 
