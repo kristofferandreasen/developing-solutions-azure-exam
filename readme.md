@@ -1,4 +1,4 @@
-![Alt text](awesomeazure.png?raw=true "Exam AZ-203")
+![Alt text](exam203.png?raw=true "Exam AZ-203")
 
 # Exam AZ-203: Developing Solutions for Microsoft Azure
 
@@ -13,19 +13,20 @@ I would recommend everyone getting started with Azure to visit the [Microsoft Le
 
 ### Develop solutions that use file storage
 * Implement quotas for file shares in storage account
-* [Link - Storage Files FAQ](https://docs.microsoft.com/en-us/azure/storage/files/storage-files-faq)
-* [Link - .NET - How to use files](https://docs.microsoft.com/en-us/azure/storage/files/storage-dotnet-how-to-use-files)
+  * [Link - Storage Files FAQ](https://docs.microsoft.com/en-us/azure/storage/files/storage-files-faq)
+  * [Link - .NET - How to use files](https://docs.microsoft.com/en-us/azure/storage/files/storage-dotnet-how-to-use-files)
 
 ## Create Platform as a Service (PaaS) Solutions
 
 ### Create an app service Logic App
 * Create a custom connector for Logic Apps, a custom template for a Logic App
-* [Link - Logic App Connector](https://docs.microsoft.com/en-us/connectors/custom-connectors/create-logic-apps-connector)
+  * [Link - Logic App Connector](https://docs.microsoft.com/en-us/connectors/custom-connectors/create-logic-apps-connector)
 
 * Create a Logic App
-* https://docs.microsoft.com/en-us/azure/logic-apps/quickstart-create-first-logic-app-workflow
+  * https://docs.microsoft.com/en-us/azure/logic-apps/quickstart-create-first-logic-app-workflow
 * Package an Azure App Service Logic App
-* https://docs.microsoft.com/en-us/azure/logic-apps/logic-apps-overview
+  * https://docs.microsoft.com/en-us/azure/logic-apps/logic-apps-overview
+
 ### Create app or service that runs on Service Fabric
 * Develop a stateful Reliable Service and a stateless Reliable Service
 * https://docs.microsoft.com/en-us/azure/service-fabric/
