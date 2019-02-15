@@ -184,41 +184,42 @@ Each area will be described with links to the individual subjects.
 
 ### Develop an App Service Logic App
 * Create a Logic App
-  * []()
+  * [Create Logic App - Quickstart](https://docs.microsoft.com/en-us/azure/logic-apps/quickstart-create-first-logic-app-workflow)
 * Create a custom connector for Logic Apps
-  * []()
+  * [Custom connectors in Logic Apps](https://docs.microsoft.com/en-us/azure/logic-apps/custom-connector-overview)
 * Create a custom template for Logic Apps
-  * []()
+  * [Logic App Templates](https://docs.microsoft.com/en-us/azure/logic-apps/logic-apps-create-logic-apps-from-templates)
 
 ### Integrate Azure Search within solutions
 * Create an Azure Search index
-  * []()
+  * [Create basic index in Azure Search](https://docs.microsoft.com/en-us/azure/search/search-what-is-an-index)
 * Import searchable data
-  * []()
+  * [Import Data Wizard for Azure Search](https://docs.microsoft.com/en-us/azure/search/search-import-data-portal)
 * Query the Azure Search index
-  * []()
+  * [Query Azure Search in .NET](https://docs.microsoft.com/en-us/azure/search/search-howto-dotnet-sdk)
 
 ### Establish API Gateways
 * Create an APIM instance
-  * []()
+  * [Create Azure API Management instance](https://docs.microsoft.com/en-us/azure/api-management/get-started-create-service-instance)
 * Configure authentication for APIs
-  * []()
+  * [Authentication - Azure API Management](https://docs.microsoft.com/en-us/azure/api-management/api-management-howto-protect-backend-with-aad)
 * Define policies for APIs
-  * []()
+  * [Policies in Azure API Management](https://docs.microsoft.com/en-us/azure/api-management/api-management-howto-policies)
 
 ### Develop event-based solutions
 * Implement solutions that use Azure Event Grid
-  * []()
+  * [Route Events - Event Grid](https://docs.microsoft.com/en-us/azure/event-grid/custom-event-quickstart-portal)
 * Implement solutions that use Azure Notification Hubs
-  * []()
+  * [Azure Notification Hubs - Docs](https://docs.microsoft.com/en-us/azure/notification-hubs/)
 * Implement solutions that use Azure Event Hub
-  * []()
+  * [Send messages to Azure Event Hub](https://docs.microsoft.com/en-us/azure/event-hubs/event-hubs-dotnet-standard-getstarted-send)
 
 ### Develop message-based solutions
 * Implement solutions that use Azure Service Bus
-  * []()
+  * [What is Azure Service Bus](https://docs.microsoft.com/en-us/azure/service-bus-messaging/service-bus-messaging-overview)
+  * [Get started with Service Bus queues](https://docs.microsoft.com/en-us/azure/service-bus-messaging/service-bus-dotnet-get-started-with-queues)
 * Implement solutions that use Azure Queue Storage queues
-  * []()
+  * [Get started with Azure Queue Storage](https://docs.microsoft.com/en-us/azure/storage/queues/storage-dotnet-how-to-use-queues)
 
 ## Flash Cards (Tinycards) for Practicing
 
@@ -229,7 +230,7 @@ I have create a set of Tinycards to help you practice for the exam. However, the
 ## Contributing
 This project was created to keep a centralized place for all the resources I needed to become proficient in Azure. Feel free to suggest or add other resources that might be relevant or let me know if some of the resources are unavailable.
 
-You can read more on contributing in the [contributing.md file](https://github.com/kristofferandreasen/AwesomeAzure/blob/master/CONTRIBUTING.md).
+You can read more on contributing in the [contributing.md file](https://github.com/kristofferandreasen/developing-solutions-azure-exam/blob/master/contributing.md).
 
 ## Going Forward
 The repository will be updated with regular intervals.
