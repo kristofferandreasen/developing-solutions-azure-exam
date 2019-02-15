@@ -78,54 +78,59 @@ Each area will be described with links to the individual subjects.
 
 ### Implement Azure functions
 * Implement input and output bindings for a function
-  * []()
+  * [Triggers and bindings](https://docs.microsoft.com/en-us/azure/azure-functions/functions-triggers-bindings)
 * Implement function triggers by using data operations, timers, and webhooks
-  * []()
+  * [Timer Trigger](https://docs.microsoft.com/en-us/azure/azure-functions/functions-bindings-timer)
+  * [HTTP and Webhooks](https://docs.microsoft.com/en-us/sandbox/functions-recipes/http-and-webhooks)
 * Implement Azure Durable Functions
-  * []()
+  * [Durable functions overview](https://docs.microsoft.com/en-us/azure/azure-functions/durable/durable-functions-overview)
+  * [Serverless - Overview](https://docs.microsoft.com/en-us/azure/azure-functions/functions-compare-logic-apps-ms-flow-webjobs?toc=%2fazure%2fazure-functions%2fdurable%2ftoc.json)
 * Create Azure Function apps by using Visual Studio
-  * []()
+  * [Create Azure Function with Visual Studio](https://docs.microsoft.com/en-us/azure/azure-functions/functions-create-your-first-function-visual-studio)
 
 ## Develop for Azure storage (15-20%)
 
 ### Develop solutions that use storage tables
 * Design and implement policies for tables
-  * []()
+  * [Stored Access Policy](https://docs.microsoft.com/en-us/rest/api/storageservices/establishing-a-stored-access-policy)
 * Query table storage by using code
-  * []()
+  * [Get started with Table Storage](https://docs.microsoft.com/en-us/azure/cosmos-db/table-storage-how-to-use-dotnet)
 * Implement partitioning schemes
-  * []()
+  * [Partitioning Strategy](https://docs.microsoft.com/en-us/rest/api/storageservices/designing-a-scalable-partitioning-strategy-for-azure-table-storage)
 ### Develop solutions that use Cosmos DB storage
 * Create, read, update, and delete data by using appropriate APIs
-  * []()
+  * [Cosmos DB - Get started](https://docs.microsoft.com/en-us/azure/cosmos-db/sql-api-get-started)
 * Implement partitioning schemes
-  * []()
+  * [Partitioning and Scaling](https://docs.microsoft.com/en-us/azure/cosmos-db/partition-data)
 * Set the appropriate consistency level for operations
-  * []()
+  * [Consistency levels](https://docs.microsoft.com/en-us/azure/cosmos-db/consistency-levels-across-apis)
 
 ### Develop solutions that use a relational database
 * Provision and configure relational databases
-  * []()
+  * [Create Azure SQL Database](https://docs.microsoft.com/en-us/azure/sql-database/sql-database-single-database-get-started)
 * Configure elastic pools for Azure SQL Database
-  * []()
+  * [Elastic pools for Azure SQL](https://docs.microsoft.com/en-us/azure/sql-database/sql-database-elastic-pool)
 * Create, read, update, and delete data tables by using code
-  * []()
+  * [ASP.NET Core Razor Pages CRUD](https://docs.microsoft.com/en-us/aspnet/core/data/ef-rp/crud?view=aspnetcore-2.2)
+  * [ASP.NET Tutorial with SQL](https://docs.microsoft.com/en-us/azure/app-service/app-service-web-tutorial-dotnet-sqldatabase)
 
 ### Develop solutions that use blob storage
 * Move items in blob storage between storage accounts or containers
-  * []()
+  * [Choose Azure solution for data transfer](https://docs.microsoft.com/da-dk/azure/storage/common/storage-choose-data-transfer-solution?toc=%2Fazure%2Fstorage%2Ffiles%2Ftoc.json)
+  * [Transfer data with AzCopy](https://docs.microsoft.com/en-us/azure/storage/common/storage-use-azcopy)
 * Set and retrieve properties and metadata
-  * []()
+  * [Storage properties and metadata](https://docs.microsoft.com/en-us/azure/storage/blobs/storage-properties-metadata)
 * Implement blob leasing
-  * []()
+  * [Lease blob](https://docs.microsoft.com/en-us/rest/api/storageservices/lease-blob)
 * Implement data archiving and retention
-  * []()
+  * [Azure Blob Storage - Storage tiers](https://docs.microsoft.com/en-us/azure/storage/blobs/storage-blob-storage-tiers)
 
 ## Implement Azure security (10-15%)
 
 ### Implement authentication
 * Implement authentication by using certificates, forms-based authentication, or tokens
-  * []()
+  * [Introduction to Identity](https://docs.microsoft.com/en-us/aspnet/core/security/authentication/identity?view=aspnetcore-2.2&tabs=visual-studio)
+  * [JWT Authentication - ASP.NET Core](http://jasonwatmore.com/post/2018/08/14/aspnet-core-21-jwt-authentication-tutorial-with-example-api)
 * Implement multi-factor or Windows authentication by using Azure AD
   * []()
 * Implement OAuth2 authentication
@@ -135,41 +140,45 @@ Each area will be described with links to the individual subjects.
 
 ### Implement access control
 * Implement CBAC (Claims-Based Access Control) authorization
-  * []()
+  * [ASP.NET Core Tutorial - User protected data](https://docs.microsoft.com/en-us/aspnet/core/security/authorization/secure-data?view=aspnetcore-2.2)
+  * [Claims-based authorization](https://docs.microsoft.com/en-us/aspnet/core/security/authorization/claims?view=aspnetcore-2.2)
 * Implement RBAC (Role-Based Access Control) authorization
-  * []()
+  * [Role-based authorization](https://docs.microsoft.com/en-us/aspnet/core/security/authorization/roles?view=aspnetcore-2.2)
 * Create shared access signatures
-  * []()
+  * [Shared access signatures - Blob Storage](https://docs.microsoft.com/en-us/azure/storage/blobs/storage-dotnet-shared-access-signature-part-2)
 
 ### Implement secure data solutions
 * Encrypt and decrypt data at rest and in transit
-  * []()
+  * [ASP.NET Core - Data Protection](https://docs.microsoft.com/en-us/aspnet/core/security/data-protection/configuration/overview?view=aspnetcore-2.2)
 * Create, read, update, and delete keys, secrets, and certificates by using the KeyVault API
-  * []()
+  * [Azure Key Vault API reference](https://docs.microsoft.com/en-us/rest/api/keyvault/)
 
 ## Monitor, troubleshoot, and optimize Azure solutions (15-20%)
 
 ### Develop code to support scalability of apps and services
 * Implement autoscaling rules and patterns
-  * []()
+  * [Autoscaling App Service](https://docs.microsoft.com/en-us/azure/app-service/environment/app-service-environment-auto-scale)
 * Implement code that handles transient faults
-  * []()
+  * [Resilient Applications](https://docs.microsoft.com/en-us/dotnet/standard/microservices-architecture/implement-resilient-applications/)
+  * [Circuit Breaker Pattern](https://docs.microsoft.com/en-us/dotnet/standard/microservices-architecture/implement-resilient-applications/implement-circuit-breaker-pattern)
+  * [HTTP Call retries with Polly](https://docs.microsoft.com/en-us/dotnet/standard/microservices-architecture/implement-resilient-applications/implement-http-call-retries-exponential-backoff-polly)
+  * [Resilient HTTP Calls with HttpClientFactory](https://docs.microsoft.com/en-us/dotnet/standard/microservices-architecture/implement-resilient-applications/use-httpclientfactory-to-implement-resilient-http-requests)
 
 ### Integrate caching and content delivery within solutions
 * Store and retrieve data in Azure Redis cache
-  * []()
+  * [Azure Redis cache overview](https://docs.microsoft.com/en-us/azure/azure-cache-for-redis/cache-overview)
 * Develop code to implement CDNs in solutions
-  * []()
+  * [Azure CDN Development](https://docs.microsoft.com/en-us/azure/cdn/cdn-app-dev-net)
 * Invalidate cache content (CDN or Redis)
-  * []()
+  * [Purge Azure CDN endpoint](https://docs.microsoft.com/en-us/azure/cdn/cdn-purge-endpoint)
 
 ### Instrument solutions to support monitoring and logging
 * Configure instrumentation in an app or service by using Application Insights
-  * []()
+  * [Application Insights - Overview](https://docs.microsoft.com/en-us/azure/azure-monitor/app/app-insights-overview)
 * Analyze and troubleshoot solutions by using Azure Monitor
-  * []()
+  * [Azure Monitor Docs](https://docs.microsoft.com/en-us/azure/azure-monitor/)
 * Implement Application Insights Web Test and Alerts
-  * []()
+  * [Set Alerts in Application Insights](https://docs.microsoft.com/en-us/azure/azure-monitor/app/alerts)
 
 ## Connect to and Consume Azure Services and Third-party Services (20-25%)
 
