@@ -28,6 +28,8 @@ Each area will be described with links to the individual subjects.
   * [Create VM - Portal](https://docs.microsoft.com/en-us/azure/virtual-machines/windows/quick-create-portal)
   * [Create VM - Powershell](https://docs.microsoft.com/en-us/azure/virtual-machines/windows/quick-create-powershell)
   * [Create VM - CLI](https://docs.microsoft.com/en-us/azure/virtual-machines/windows/quick-create-cli)
+  * [Pluralsight Course - Infrastructure](https://www.pluralsight.com/courses/implementing-virtual-machines-azure-infrastructure-70-533)
+
 * Create ARM templates
   * [ARM - Structure and syntax](https://docs.microsoft.com/en-us/azure/azure-resource-manager/resource-group-authoring-templates)
 * Configure Azure Disk Encryption for VMs
