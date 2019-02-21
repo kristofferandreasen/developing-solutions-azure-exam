@@ -229,7 +229,7 @@ Each area will be described with links to the individual subjects.
 
 ## Flash Cards (Tinycards) for Practicing
 
-I have create a set of Tinycards to help you practice for the exam. However, the exam does require you to code. The cards will therefore only be for yourself to practice knowledge regarding central concepts of the subjects.
+I have created a set of Tinycards to help you practice for the exam. However, the exam does require you to code. The cards will therefore only be for yourself to practice knowledge regarding central concepts of the subjects.
 
 [![TinyCards Flash Cards](tinycards.PNG?raw=true)](https://tiny.cards/decks/KXxGMwAe/exam-az-203-developing-solutions-for-azure)
 
