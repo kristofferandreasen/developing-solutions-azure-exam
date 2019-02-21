@@ -1,4 +1,4 @@
-![Alt text](exam203.png?raw=true "Exam AZ-203")
+![Exam AZ-203](exam203.png?raw=true "Exam AZ-203")
 
 # Exam AZ-203: Developing Solutions for Microsoft Azure
 
@@ -231,7 +231,7 @@ Each area will be described with links to the individual subjects.
 
 I have create a set of Tinycards to help you practice for the exam. However, the exam does require you to code. The cards will therefore only be for yourself to practice knowledge regarding central concepts of the subjects.
 
-[![TinyCards Flash Cards](tinycards.png?raw=true "TinyCards Flash Cards")](https://tiny.cards/decks/KXxGMwAe/exam-az-203-developing-solutions-for-azure)
+![TinyCards Flash Cards](tinycards.png?raw=true "TinyCards Flash Cards")](https://tiny.cards/decks/KXxGMwAe/exam-az-203-developing-solutions-for-azure)
 
 [EXAM AZ-203: Flash Cards for Practicing](https://tiny.cards/decks/KXxGMwAe/exam-az-203-developing-solutions-for-azure)
 
