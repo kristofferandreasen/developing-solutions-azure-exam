@@ -130,6 +130,7 @@ Each area will be described with links to the individual subjects.
 ### Implement authentication
 * Implement authentication by using certificates, forms-based authentication, or tokens
   * [Introduction to Identity](https://docs.microsoft.com/en-us/aspnet/core/security/authentication/identity?view=aspnetcore-2.2&tabs=visual-studio)
+  * [Authentication Samples ASP.Net Core - Github](https://github.com/aspnet/AspNetCore/tree/release/2.2/src/Security/samples)
   * [JWT Authentication - ASP.NET Core](http://jasonwatmore.com/post/2018/08/14/aspnet-core-21-jwt-authentication-tutorial-with-example-api)
 * Implement multi-factor or Windows authentication by using Azure AD
   * [Multi Factor Authentication - How it works](https://docs.microsoft.com/en-us/azure/active-directory/authentication/concept-mfa-howitworks)
