@@ -132,11 +132,14 @@ Each area will be described with links to the individual subjects.
   * [Introduction to Identity](https://docs.microsoft.com/en-us/aspnet/core/security/authentication/identity?view=aspnetcore-2.2&tabs=visual-studio)
   * [JWT Authentication - ASP.NET Core](http://jasonwatmore.com/post/2018/08/14/aspnet-core-21-jwt-authentication-tutorial-with-example-api)
 * Implement multi-factor or Windows authentication by using Azure AD
-  * []()
+  * [Multi Factor Authentication - How it works](https://docs.microsoft.com/en-us/azure/active-directory/authentication/concept-mfa-howitworks)
+  * [QR Codes for Two-Factor Authentication](https://docs.microsoft.com/en-us/aspnet/core/security/authentication/identity-enable-qrcodes?view=aspnetcore-2.2)
 * Implement OAuth2 authentication
-  * []()
+  * [Authorize access to web applications with Oauth 2.0](https://docs.microsoft.com/en-us/azure/active-directory/develop/v1-protocols-oauth-code)
 * Implement Managed Service Identity (MSI)/Service Principal authentication
-  * []()
+  * [What is managed identities?](https://docs.microsoft.com/en-us/azure/active-directory/managed-identities-azure-resources/overview)
+  * [Use a Windows VM system-assigned managed identity to access Resource Manager](https://docs.microsoft.com/en-us/azure/active-directory/managed-identities-azure-resources/tutorial-windows-vm-access-arm)
+  * [Configure managed identities for Azure resources on a VM using the Azure portal](https://docs.microsoft.com/en-us/azure/active-directory/managed-identities-azure-resources/qs-configure-portal-windows-vm)
 
 ### Implement access control
 * Implement CBAC (Claims-Based Access Control) authorization
