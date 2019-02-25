@@ -70,6 +70,7 @@ Each area will be described with links to the individual subjects.
 
 ### Create Azure App Service mobile apps
 * Add push notifications for mobile apps
+  * [Azure Mobile Apps - Quickstart](https://github.com/Azure/azure-mobile-apps-quickstarts)
   * [Notification Hub](https://docs.microsoft.com/en-us/azure/notification-hubs/)
 * Enable offline sync for mobile app
   * [Offline sync for mobile apps](https://docs.microsoft.com/en-us/azure/app-service-mobile/app-service-mobile-offline-data-sync)
