@@ -32,6 +32,8 @@ Each area will be described with links to the individual subjects.
 
 * Create ARM templates
   * [ARM - Structure and syntax](https://docs.microsoft.com/en-us/azure/azure-resource-manager/resource-group-authoring-templates)
+  * [ARM - Github Quickstart Repository](https://github.com/Azure/azure-quickstart-templates)
+  * [ARM - Gallery](https://azure.microsoft.com/en-us/resources/templates/)
 * Configure Azure Disk Encryption for VMs
   * [Azure Disk Encryption](https://docs.microsoft.com/en-us/azure/security/azure-security-disk-encryption-overview)
 
@@ -42,6 +44,7 @@ Each area will be described with links to the individual subjects.
   * [Run batch service with CLI](https://docs.microsoft.com/en-us/azure/batch/quick-create-cli)
 * Write code to run an Azure Batch Services batch job
   * [Code a batch service](https://docs.microsoft.com/en-us/azure/batch/quick-run-dotnet)
+  * [Run a parallel workload with Azure Batch using the .NET API](https://docs.microsoft.com/en-us/azure/batch/tutorial-parallel-dotnet)
 
 ### Create containerized solutions
 * Create an Azure Managed Kubernetes Service (AKS) cluster
