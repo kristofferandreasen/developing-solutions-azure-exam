@@ -255,6 +255,17 @@ Some of the areas are primarily focused on the portal.
 * Connect to and Consume Azure Services and Third-party Services (20-25%)
   * [Link to samples](https://github.com/kristofferandreasen/developing-solutions-azure-exam/tree/master/5-connect-to-and-consume-azure-services-and-third-party-services)
 
+## Exam Questions
+
+It is possible to find relevant exam questions online.
+Here are a few links to relevant questions to help you prepare.
+These are closer than the flash cards to how your exam will actually look.
+* [Cert Library - Exam Questions](https://www.certlibrary.com/exam/70-532)
+* [Practice Test 70-532 (the previous exam name)](https://crpietschmann.github.io/Azure-70-532-Practice-Test/?1.1)
+
+## Courses - Exam Preparation
+* [Udemy Course](https://www.udemy.com/70532-azure/)
+
 ## Contributing
 This project was created to keep a centralized place for all the resources I needed to become proficient in Azure. Feel free to suggest or add other resources that might be relevant or let me know if some of the resources are unavailable.
 
