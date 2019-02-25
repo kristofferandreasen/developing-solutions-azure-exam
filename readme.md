@@ -245,15 +245,15 @@ Only the areas where programming is necessary is represented in the samples.
 Some of the areas are primarily focused on the portal.
 
 * Develop Azure Infrastructure as a Service Compute Solutions (10-15%)
-  * [Link to samples](https://docs.microsoft.com/en-us/azure/service-bus-messaging/service-bus-messaging-overview)
+  * [Link to samples](https://github.com/kristofferandreasen/developing-solutions-azure-exam/tree/master/1-develop-azure-infrastructure-as-a-service-compute-solutions)
 * Develop Azure Platform as a Service Compute Solutions (20-25%)
-  * [Link to samples](https://docs.microsoft.com/en-us/azure/service-bus-messaging/service-bus-messaging-overview)
+  * [Link to samples](https://github.com/kristofferandreasen/developing-solutions-azure-exam/tree/master/2-develop-azure-platform-as-a-service-compute-solutions)
 * Develop for Azure storage (15-20%)
-  * [Link to samples](https://docs.microsoft.com/en-us/azure/service-bus-messaging/service-bus-messaging-overview)
+  * [Link to samples](https://github.com/kristofferandreasen/developing-solutions-azure-exam/tree/master/3-develop-for-azure-storage)
 * Implement Azure security (10-15%)
-  * [Link to samples](https://docs.microsoft.com/en-us/azure/service-bus-messaging/service-bus-messaging-overview)
+  * [Link to samples](https://github.com/kristofferandreasen/developing-solutions-azure-exam/tree/master/4-implement-azure-security)
 * Connect to and Consume Azure Services and Third-party Services (20-25%)
-  * [Link to samples](https://docs.microsoft.com/en-us/azure/service-bus-messaging/service-bus-messaging-overview)
+  * [Link to samples](https://github.com/kristofferandreasen/developing-solutions-azure-exam/tree/master/5-connect-to-and-consume-azure-services-and-third-party-services)
 
 ## Contributing
 This project was created to keep a centralized place for all the resources I needed to become proficient in Azure. Feel free to suggest or add other resources that might be relevant or let me know if some of the resources are unavailable.
