@@ -238,6 +238,22 @@ I have created a set of Tinycards to help you practice for the exam. However, th
 
 [EXAM AZ-203: Flash Cards for Practicing](https://tiny.cards/decks/KXxGMwAe/exam-az-203-developing-solutions-for-azure)
 
+## Code Samples
+The code samples are created by Microsoft and contain samples for each of the project areas.
+Only the areas where programming is necessary is represented in the samples.
+Some of the areas are primarily focused on the portal.
+
+* Develop Azure Infrastructure as a Service Compute Solutions (10-15%)
+  * [Link to samples](https://docs.microsoft.com/en-us/azure/service-bus-messaging/service-bus-messaging-overview)
+* Develop Azure Platform as a Service Compute Solutions (20-25%)
+  * [Link to samples](https://docs.microsoft.com/en-us/azure/service-bus-messaging/service-bus-messaging-overview)
+* Develop for Azure storage (15-20%)
+  * [Link to samples](https://docs.microsoft.com/en-us/azure/service-bus-messaging/service-bus-messaging-overview)
+* Implement Azure security (10-15%)
+  * [Link to samples](https://docs.microsoft.com/en-us/azure/service-bus-messaging/service-bus-messaging-overview)
+* Connect to and Consume Azure Services and Third-party Services (20-25%)
+  * [Link to samples](https://docs.microsoft.com/en-us/azure/service-bus-messaging/service-bus-messaging-overview)
+
 ## Contributing
 This project was created to keep a centralized place for all the resources I needed to become proficient in Azure. Feel free to suggest or add other resources that might be relevant or let me know if some of the resources are unavailable.
 
