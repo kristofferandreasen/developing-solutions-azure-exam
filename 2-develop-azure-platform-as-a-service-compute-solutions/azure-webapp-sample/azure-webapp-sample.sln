@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2005
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "azure-webapp-sample", "azure-webapp-sample\azure-webapp-sample.csproj", "{3BE0D253-ED00-449A-A1DF-F140C6734666}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3BE0D253-ED00-449A-A1DF-F140C6734666}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3BE0D253-ED00-449A-A1DF-F140C6734666}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3BE0D253-ED00-449A-A1DF-F140C6734666}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3BE0D253-ED00-449A-A1DF-F140C6734666}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7ECB1613-33A7-4826-99A6-6D2D7AE3B781}
+	EndGlobalSection
+EndGlobal
