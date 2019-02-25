@@ -1,0 +1,8 @@
+<!-- Copy this snippet into the inbound element to direct a percentage of traffic to a canary backend URL -->
+<set-variable name="canaryPercentage" value="@(15)"/>
+<set-variable name="canaryBackendServiceUrl" value="https://canary.contoso.net/func"/>
+<choose>
+    <when condition="@(new Random().Next(100) < context.Variables.GetValueOrDefault<int>("canaryPercentage"))">
+        <set-backend-service base-url="@(context.Variables.GetValueOrDefault<string>("canaryBackendServiceUrl"))"/>
+    </when>
+</choose>
