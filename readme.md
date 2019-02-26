@@ -261,7 +261,8 @@ It is possible to find relevant exam questions online.
 Here are a few links to relevant questions to help you prepare.
 These are closer than the flash cards to how your exam will actually look.
 * [Cert Library - Exam Questions](https://www.certlibrary.com/exam/70-532)
-* [Practice Test 70-532 (the previous exam name)](https://crpietschmann.github.io/Azure-70-532-Practice-Test/?1.1)
+* [Practice Test 70-532 - All Subjects (the previous exam name)](https://crpietschmann.github.io/Azure-70-532-Practice-Test/?1.1)
+* [Practice Test 70-532 - Deploy Azure App Service Web Apps (the previous exam name)](https://crpietschmann.github.io/Azure-70-532-Practice-Test/?1.1)
 
 ## Courses - Exam Preparation
 * [Udemy Course](https://www.udemy.com/70532-azure/)
