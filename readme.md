@@ -263,6 +263,7 @@ These are closer than the flash cards to how your exam will actually look.
 * [Cert Library - Exam Questions](https://www.certlibrary.com/exam/70-532)
 * [Practice Test 70-532 - All Subjects (the previous exam name)](https://crpietschmann.github.io/Azure-70-532-Practice-Test/?1.1)
 * [Practice Test 70-532 - Deploy Azure App Service Web Apps (the previous exam name)](https://crpietschmann.github.io/Azure-70-532-Practice-Test/?1.1)
+* [Kaplan Learn Practice Exam - Click on right side in the Path page (Only for Pluralsight users)](https://app.pluralsight.com/paths/skills/developing-microsoft-azure-solutions-70-532)
 
 ## Courses - Exam Preparation
 * [Udemy Course](https://www.udemy.com/70532-azure/)
