@@ -267,7 +267,7 @@ These are closer than the flash cards to how your exam will actually look.
 
 ## Courses - Exam Preparation
 * [Udemy Course](https://www.udemy.com/70532-azure/)
-* [Pluralsight Path](https://app.pluralsight.com/paths/skills/developing-microsoft-azure-solutions-70-532)
+* [Pluralsight Path](https://app.pluralsight.com/paths/skills/developing-solutions-for-microsoft-azure-az-203)
 
 ## Contributing
 This project was created to keep a centralized place for all the resources I needed to become proficient in Azure. Feel free to suggest or add other resources that might be relevant or let me know if some of the resources are unavailable.
