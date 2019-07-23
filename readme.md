@@ -62,7 +62,7 @@ Each area will be described with links to the individual subjects.
 
 ### Create Azure App Service Web Apps
 * Create an Azure App Service Web App
-  * [Create app service](https://docs.microsoft.com/en-us/azure/app-service/environment/app-service-web-how-to-create-a-web-app-in-an-ase)
+  * [Create app service](https://docs.microsoft.com/azure/app-service/environment/intro)
 * Create an Azure App Service background task by using WebJobs
   * [Create a webjob](https://docs.microsoft.com/en-us/azure/app-service/webjobs-create)
 * Enable diagnostics logging
