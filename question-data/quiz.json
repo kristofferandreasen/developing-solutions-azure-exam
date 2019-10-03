@@ -304,6 +304,44 @@
         "question": "The reference for the blob storage file is a CloudBlobClient class.",
         "answer": false,
         "fact": " CloudBlobClient is simply the client. You furthermore need to reference the blob container CloudBlobContainer and the specific CloudBlockBlob. CloudBlockBlob is the individual blob object class."
+      },
+      {
+        "number": 26,
+        "category": "Develop for Azure Storage",
+        "tags": ["Azure Table Storage", "Query"],
+        "type": "multiple-choice",
+        "question": "Which operation retrieves a customer from Azure Table Storage?",
+        "answers": [
+          "TableOperation query = TableOperation.Retrieve<Customer>(partitionKey, rowKey);",
+          "TableQuery query = TableQuery.Retrieve<Customer>(partitionKey, rowKey);",
+          "CloudOperation query = CloudOperation.Retrieve<Customer>(partitionKey, rowKey);",
+          "QueryOperation query = QueryOperation.Retrieve<Customer>(partitionKey, rowKey);"
+        ],
+        "correct_answer": 4,
+        "fact": "TableOperation is always used to perform an operation - GET, ADD, DELETE, UPDATE."
+      },
+      {
+        "number": 27,
+        "category": "Develop for Azure Storage",
+        "tags": ["Query", "Azure Table Storage"],
+        "type": "true-false",
+        "question": "TableQuery is used to update records from Azure Table Storage.",
+        "answer": false,
+        "fact": "TableQuery is used to query existing records based on a condition. TableOperation is used to GET, ADD, DELETE, UPDATE."
+      },
+      {
+        "number": 28,
+        "category": "Develop for Azure Storage",
+        "tags": ["Azure Blob Storage", "Query"],
+        "type": "multiple-choice",
+        "question": "What happens when you call GetBlockBlobReference with the name of a blob?",
+        "answers": [
+          "A CloudBlockBlob object is created locally. No network calls are made.",
+          "A CloudBlockBlob object is created locally after being requested over the network.",
+          "A CloudBlockBlob object is created in Azure with a network request."
+        ],
+        "correct_answer": 1,
+        "fact": "Network requests are only made in blobContainer.Create(); and blob.UploadFromFile(inputFileName);"
       }
     ]
 }
