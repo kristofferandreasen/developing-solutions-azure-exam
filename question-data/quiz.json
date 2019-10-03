@@ -1,0 +1,285 @@
+{
+    "module": {
+      "name": "Develop for Azure Storage"
+    },
+    "questions": [
+      {
+        "number": 1,
+        "category": "Develop for Azure Storage",
+        "tags": ["Storage", "Administration"],
+        "type": "multiple-choice",
+        "question": "How many access keys are provided for accessing your Azure storage account?",
+        "answers": [
+          "1",
+          "2",
+          "3",
+          "4"
+        ],
+        "correct_answer": 2,
+        "fact": "Each storage account has two access keys. This lets you follow the best-practice guideline of periodically replacing the key used by your applications without incurring downtime."
+      },
+      {
+        "number": 2,
+        "category": "Develop for Azure Storage",
+        "tags": ["", ""],
+        "type": "open-ended",
+        "question": "What are blobs?",
+        "answer": "A Binary Large OBject (BLOB) is a collection of binary data.",
+        "fact": "Blobs are files for the cloud. Apps work with blobs in much the same way as they would work with files on a disk, like reading and writing data. However, unlike a local file, blobs can be reached from anywhere with an internet connection."
+      },
+      {
+        "number": 3,
+        "category": "Develop for Azure Storage",
+        "tags": ["", ""],
+        "type": "open-ended",
+        "question": "What is structured data?",
+        "answer": "Structured data is data that adheres to a schema, so all of the data has the same fields or properties.",
+        "fact": ""
+      },
+      {
+        "number": 4,
+        "category": "Develop for Azure Storage",
+        "tags": ["Naming", "Storage"],
+        "type": "true-false",
+        "question": "Should the name of a Storage Account be globally unique?",
+        "answer": true,
+        "fact": "Naming conventions are important to keep an overview of resources in Azure."
+      },
+      {
+        "number": 5,
+        "category": "Develop for Azure Storage",
+        "tags": ["Data", "Application"],
+        "type": "open-ended",
+        "question": "Application data can be classified in three categories. What are these?",
+        "answer": "Structured, semi-structured, and unstructured.",
+        "fact": "Structured data is often used when developing applications. However, the majority of data is estimated to be unstructured."
+      },
+      {
+        "number": 6,
+        "category": "Develop for Azure Storage",
+        "tags": ["Table Storage", "Data"],
+        "type": "open-ended",
+        "question": "What is semi-structured data?",
+        "answer": "Semi-structured data is less organized than structured data, and is not stored in a relational format, as the fields do not neatly fit into tables, rows, and columns.",
+        "fact": "Semi-Structured data is used in Azure Table Storage. You can add columns without defining a strict schema."
+      },
+      {
+        "number": 7,
+        "category": "Develop for Azure Storage",
+        "tags": ["Table Storage", "Data"],
+        "type": "open-ended",
+        "question": "What is semi-structured data?",
+        "answer": "Semi-structured data is less organized than structured data, and is not stored in a relational format, as the fields do not neatly fit into tables, rows, and columns.",
+        "fact": "Semi-Structured data is used in Azure Table Storage. You can add columns without defining a strict schema."
+      },
+      {
+        "number": 8,
+        "category": "Develop for Azure Storage",
+        "tags": ["Unstructured", "Data"],
+        "type": "open-ended",
+        "question": "What is unstructured data?",
+        "answer": "Unstructured data is data without a predefined data model that is not organized. It is often delivered in files, such as photos or videos.",
+        "fact": "Unstructured data is often text heavy and various techniques can be applied to gain insights into the data."
+      },
+      {
+        "number": 9,
+        "category": "Develop for Azure Storage",
+        "tags": ["Data", "Structure"],
+        "type": "multiple-choice",
+        "question": "A JSON file is an example of which type of data?",
+        "answers": [
+          "Structured",
+          "Unstructured",
+          "Semi-Structured"
+        ],
+        "correct_answer": 3,
+        "fact": "JSON or JavaScript Object Notation, is an open standard format that uses human-readable text to transmit data objects consisting of attribute–value pairs."
+      },
+      {
+        "number": 10,
+        "category": "Develop for Azure Storage",
+        "tags": ["Data", "Structure"],
+        "type": "multiple-choice",
+        "question": "A video is an example of which type of data?",
+        "answers": [
+          "Structured",
+          "Unstructured",
+          "Semi-Structured"
+        ],
+        "correct_answer": 2,
+        "fact": "A video may have an overall structure but the data that comprises the video itself is unstructured."
+      },
+      {
+        "number": 11,
+        "category": "Develop for Azure Storage",
+        "tags": ["Data", "Database", "Structure"],
+        "type": "multiple-choice",
+        "question": "What type of data is stored in Azure Cosmos DB?",
+        "answers": [
+          "Structured",
+          "Unstructured",
+          "Semi-Structured"
+        ],
+        "correct_answer": 3,
+        "fact": "Azure Cosmos DB supports semi-structured data, or NoSQL data, by design."
+      },
+      {
+        "number": 12,
+        "category": "Develop for Azure Storage",
+        "tags": ["Data", "Database", "Structure"],
+        "type": "multiple-choice",
+        "question": "What is the best storage option for photos and videos?",
+        "answers": [
+          "Azure Table Storage",
+          "Azure Blob Storage",
+          "Azure SQL Database",
+          "Azure Cosmos DB"
+        ],
+        "correct_answer": 2,
+        "fact": "Azure Blob storage supports storing files such as photos and videos. It also works with Azure Content Delivery Network (CDN) by caching the most frequently used content and storing it on edge servers."
+      },
+      {
+        "number": 13,
+        "category": "Develop for Azure Storage",
+        "tags": ["Data", "Database", "Structure"],
+        "type": "multiple-choice",
+        "question": "What is the best storage option for business data?",
+        "answers": [
+          "Azure Table Storage",
+          "Azure Blob Storage",
+          "Azure SQL Database",
+          "Azure Cosmos DB"
+        ],
+        "correct_answer": 3,
+        "fact": "Business data will most likely be queried by business analysts, who are more likely to know SQL than any other query language."
+      },
+      {
+        "number": 14,
+        "category": "Develop for Azure Storage",
+        "tags": ["Storage", "Administration"],
+        "type": "open-ended",
+        "question": "What is an Azure Storage Account?",
+        "answer": "A storage account is a container that groups a set of Azure Storage services together.",
+        "fact": "Only data services from Azure Storage can be included in a storage account (Azure Blobs, Azure Files, Azure Queues, and Azure Tables)."
+      },
+      {
+        "number": 15,
+        "category": "Develop for Azure Storage",
+        "tags": ["Storage", "Access", "ASP.NET Core"],
+        "type": "multiple-choice",
+        "question": "What do you need to access storage data in your ASP.Net Core application?",
+        "answers": [
+          "A Service Principal",
+          "An Access Key",
+          "A Token (JWT) and a REST Endpoint",
+          "An Access Key and a REST Endpoint"
+        ],
+        "correct_answer": 4,
+        "fact": "The access key can be stored in your applicationsettings.json and be reference in your project files."
+      },
+      {
+        "number": 16,
+        "category": "Develop for Azure Storage",
+        "tags": ["Consistency Level", "Database", "Azure Cosmos DB"],
+        "type": "multiple-choice",
+        "question": "The data you return from Cosmos DB must always be the most recent version of the data. Which consistency level should you implement?",
+        "answers": [
+          "Strong",
+          "Bounded staleness",
+          "Session",
+          "Consistent prefix",
+          "Eventual"
+        ],
+        "correct_answer": 1,
+        "fact": "Strong consistency offers a linearizability guarantee. This means that requests are served concurrently. A client never sees an uncommitted or partial write. Users are always guaranteed to read the latest committed write."
+      },
+      {
+        "number": 17,
+        "category": "Develop for Azure Storage",
+        "tags": ["Consistency Level", "Azure Cosmos DB"],
+        "type": "open-ended",
+        "question": "Can you describe the bounded staleness consistency level with Cosmos DB?",
+        "answer": "The reads are guaranteed to honor the consistent-prefix guarantee. The reads might lag behind writes by at most 'K' versions (i.e., 'updates') of an item or by 'T' time interval.",
+        "fact": "Bounded Staleness can be defined by the number of version (K) of the item or the time interval (T) of which reads lag behind."
+      },
+      {
+        "number": 18,
+        "category": "Develop for Azure Storage",
+        "tags": ["Consistency Level", "Database", "Azure Cosmos DB"],
+        "type": "multiple-choice",
+        "question": "At what level do you configure the default consistency level for Cosmos DB?",
+        "answers": [
+          "Azure Cosmos DB Account",
+          "Resource Group Level",
+          "Database Level",
+          "Container Level"
+        ],
+        "correct_answer": 1,
+        "fact": "The default consistency level is the consistency level that clients use by default. Clients can always override it."
+      },
+      {
+        "number": 19,
+        "category": "Develop for Azure Storage",
+        "tags": ["Encryption", "Azure SQL Database"],
+        "type": "open-ended",
+        "question": "What is Always Encrypted in Azure SQL Database?",
+        "answer": "Always Encrypted is a new data encryption technology in Azure SQL Database and SQL Server that helps protect sensitive data at rest on the server, during movement between client and server, and while the data is in use, ensuring that sensitive data never appears as plaintext inside the database system.",
+        "fact": "After you encrypt data, only client applications or app servers that have access to the keys can access plaintext data."
+      },
+      {
+        "number": 20,
+        "category": "Develop for Azure Storage",
+        "tags": ["Consistency", "Azure Cosmos DB"],
+        "type": "true-false",
+        "question": "Session Consistency is stronger than Consistent Prefix Consistency in Azure Cosmos DB?",
+        "answer": true,
+        "fact": "The strongest consistency is found with Strong Consistency. Eventual Consistency is the only consistency weaker than Consistent Prefix. Session Consistency is in the middle."
+      },
+      {
+        "number": 21,
+        "category": "Develop for Azure Storage",
+        "tags": ["Consistency Level", "Database", "Azure Cosmos DB"],
+        "type": "multiple-choice",
+        "question": "Which consistency level provides the highest availability and throughput?",
+        "answers": [
+          "Strong",
+          "Bounded Staleness",
+          "Session",
+          "Consistent Prefix",
+          "Eventual"
+        ],
+        "correct_answer": 5,
+        "fact": "For the same number of request units, the session, consistent prefix, and eventual consistency levels provide about two times the read throughput when compared with strong and bounded staleness."
+      },
+      {
+        "number": 22,
+        "category": "Develop for Azure Storage",
+        "tags": ["Azure Table Storage", "Query"],
+        "type": "multiple-choice",
+        "question": "What method is used to query a table storage based on a boolean veriable?",
+        "answers": [
+          "GenerateFilterConditionForBoolean",
+          "GenerateFilterForBool",
+          "GenerateFilterConditionForBool",
+          "GenerateFilterCondition"
+        ],
+        "correct_answer": 3,
+        "fact": "This can query for boolean values instead of more complex queries."
+      },
+      {
+        "number": 23,
+        "category": "Develop for Azure Storage",
+        "tags": ["Azure Table Storage", "Query"],
+        "type": "multiple-choice",
+        "question": "What query command is used to test if a value is equal to another value in a query?",
+        "answers": [
+          "QueryCondition.Equal",
+          "QueryComparisons.Equal",
+          "FilterComparisons.Equal",
+          "QueryComparisons.Eq"
+        ],
+        "correct_answer": 2,
+        "fact": "A query for a boolean value could look like this: TableQuery.GenerateFilterConditionForBool('active', QueryComparisons.Equal, true)"
+      }
+    ]
+}
