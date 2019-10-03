@@ -1,8 +1,0 @@
-{
-  "profiles": {
-    "BatchDotnetTutorialFfmpeg": {
-      "commandName": "Project",
-      "workingDirectory": "$(ProjectDir)"
-    }
-  }
-}

@@ -1,9 +1,0 @@
-﻿{
-  "frameworks": {
-    "net46": {
-      "dependencies": {
-        "Microsoft.Azure.EventGrid": "1.4.0"
-      }
-    }
-  }
-}

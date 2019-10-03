@@ -280,6 +280,30 @@
         ],
         "correct_answer": 2,
         "fact": "A query for a boolean value could look like this: TableQuery.GenerateFilterConditionForBool('active', QueryComparisons.Equal, true)"
+      },
+      {
+        "number": 24,
+        "category": "Develop for Azure Storage",
+        "tags": ["Azure Table Storage", "Query"],
+        "type": "multiple-choice",
+        "question": "How do you create a reference to a table in Azure Table Storage?",
+        "answers": [
+          "CloudTable table = tableClient.GetTable('TableName');",
+          "CloudTable table = tableClient.GetTableReference('TableName');",
+          "CloudTable table = tableClient.GetReference('TableName');",
+          "CloudTable table = tableClient.TableReference('TableName');"
+        ],
+        "correct_answer": 2,
+        "fact": ""
+      },
+      {
+        "number": 25,
+        "category": "Develop for Azure Storage",
+        "tags": ["Upload", "Azure Blob Storage"],
+        "type": "true-false",
+        "question": "The reference for the blob storage file is a CloudBlobClient class.",
+        "answer": false,
+        "fact": " CloudBlobClient is simply the client. You furthermore need to reference the blob container CloudBlobContainer and the specific CloudBlockBlob. CloudBlockBlob is the individual blob object class."
       }
     ]
 }
