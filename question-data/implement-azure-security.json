@@ -1,0 +1,40 @@
+{
+    "module": {
+      "name": "Implement Azure Security"
+    },
+    "questions": [
+      {
+        "number": 1,
+        "category": "Implement Azure Security",
+        "tags": ["Storage", "Administration"],
+        "type": "multiple-choice",
+        "question": "How many access keys are provided for accessing your Azure storage account?",
+        "answers": [
+          "1",
+          "2",
+          "3",
+          "4"
+        ],
+        "correct_answer": 2,
+        "fact": "Each storage account has two access keys. This lets you follow the best-practice guideline of periodically replacing the key used by your applications without incurring downtime."
+      },
+      {
+        "number": 2,
+        "category": "Implement Azure Security",
+        "tags": ["", ""],
+        "type": "open-ended",
+        "question": "What are blobs?",
+        "answer": "A Binary Large OBject (BLOB) is a collection of binary data.",
+        "fact": "Blobs are files for the cloud. Apps work with blobs in much the same way as they would work with files on a disk, like reading and writing data. However, unlike a local file, blobs can be reached from anywhere with an internet connection."
+      },
+      {
+        "number": 3,
+        "category": "Implement Azure Security",
+        "tags": ["Naming", "Storage"],
+        "type": "true-false",
+        "question": "Should the name of a Storage Account be globally unique?",
+        "answer": true,
+        "fact": "Naming conventions are important to keep an overview of resources in Azure."
+      }
+    ]
+}
