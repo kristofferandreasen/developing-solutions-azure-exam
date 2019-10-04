@@ -36,6 +36,126 @@
         "question": "When developing cloud applications, the cloud provider will take care of all security concerns?",
         "answer": false,
         "fact": "False. Moving to the cloud does offload some responsibilities to the cloud provider, but a model of shared responsibility is still in effect."
-      }
+      },
+      {
+        "number": 4,
+        "category": "Implement Azure Security",
+        "tags": ["Service Principal", "Identity"],
+        "type": "open-ended",
+        "question": "What is a Service Principal?",
+        "answer": "It is an identity that is used by a service or application.",
+        "fact": "Like other identities, it can be assigned roles."
+      },
+      {
+        "number": 5,
+        "category": "Implement Azure Security",
+        "tags": ["Managed Identity", "Identity"],
+        "type": "open-ended",
+        "question": "What is a Managed Identity in Azure?",
+        "answer": "A managed identity can be instantly created for any Azure service that supports it. You can find a list of supported applications.",
+        "fact": "When you create a managed identity for a service, you are creating an account on the Azure AD tenant."
+      },
+      {
+        "number": 6,
+        "category": "Implement Azure Security",
+        "tags": ["Managed Identity", "Virtual Machines"],
+        "type": "true-false",
+        "question": "Could a managed identity for Azure resources be assigned to a virtual machine to give it rights to start and stop other virtual machines?",
+        "answer": true,
+        "fact": "Managed identities for Azure resources is a method of assigning an identity to services."
+      },
+      {
+        "number": 7,
+        "category": "Implement Azure Security",
+        "tags": ["Encryption", "Keys"],
+        "type": "multiple-choice",
+        "question": "What is Symmetric encryption?",
+        "answers": [
+          "Symmetric encryption uses a public key and private key pair",
+          "Symmetric encryption uses the same key across resources in Azure",
+          "Symmetric encryption uses the same key to encrypt and decrypt the data",
+          "Symmetric encryption uses different keys across resources in Azure"
+        ],
+        "correct_answer": 3,
+        "fact": "Symmetric encryption is a type of encryption where only one key (a secret key) is used to both encrypt and decrypt electronic information."
+      },
+      {
+        "number": 8,
+        "category": "Implement Azure Security",
+        "tags": ["Encryption", "Data"],
+        "type": "open-ended",
+        "question": "What is Encryption at Rest?",
+        "answer": "Encryption of data at rest ensures that the stored data is unreadable without the keys and secrets needed to decrypt it.",
+        "fact": "Simply put, data encryption is the process of translating one form of data into another form of data that unauthorized users can’t decrypt."
+      },
+      {
+        "number": 9,
+        "category": "Implement Azure Security",
+        "tags": ["Encryption", "Storage"],
+        "type": "true-false",
+        "question": "Can you encrypt raw storage on Azure?",
+        "answer": true,
+        "fact": "Azure Storage Service Encryption for data at rest helps you protect your data to meet your organizational security and compliance commitments. With this feature, the Azure storage platform automatically encrypts your data before persisting it to Azure Managed Disks, Azure Blob storage, Azure Files, or Azure Queue storage, and decrypts the data before retrieval."
+      },
+      {
+        "number": 10,
+        "category": "Implement Azure Security",
+        "tags": ["Encryption", "Storage"],
+        "type": "multiple-choice",
+        "question": "What is Azure Disk Encryption (ADE)?",
+        "answers": [
+          "Azure Disk Encryption (ADE) helps encrypt your Windows and Linux IaaS virtual machine disks",
+          "Azure Disk Encryption (ADE) helps encrypt your Azure File Shares",
+          "Azure Disk Encryption (ADE) helps encrypt your Azure Table Storage",
+          "Azure Disk Encryption (ADE) helps encrypt your Azure SQL Server"
+        ],
+        "correct_answer": 1,
+        "fact": "Azure Disk Encryption helps protect and safeguard your data to meet your organizational security and compliance commitments. It uses the BitLocker feature of Windows and the DM-Crypt feature of Linux."
+      },
+      {
+        "number": 11,
+        "category": "Implement Azure Security",
+        "tags": ["Encryption", "Virtual Machines"],
+        "type": "true-false",
+        "question": "Can only Windows virtual machines can use Azure Disk Encryption?",
+        "answer": false,
+        "fact": "False. Azure Disk Encryption is available for both Windows and Linux virtual machines."
+      },
+      {
+        "number": 12,
+        "category": "Implement Azure Security",
+        "tags": ["Network", "Infrastructure"],
+        "type": "open-ended",
+        "question": "What is the goal of Network Security?",
+        "answer": "Network security is protecting the communication of resources within and outside of your network.",
+        "fact": "It includes both hardware and software technologies. Effective network security manages access to the network."
+      },
+      {
+        "number": 13,
+        "category": "Implement Azure Security",
+        "tags": ["Network", "Infrastructure"],
+        "type": "open-ended",
+        "question": "What is Azure Security Center?",
+        "answer": "Azure Security Center (ASC) is a monitoring service that provides threat protection across all of your services both in Azure, and on-premises.",
+        "fact": "It gives you insights and suggestions for actions based on your resources."
+      },
+      {
+        "number": 14,
+        "category": "Implement Azure Security",
+        "tags": ["Network", "Threat"],
+        "type": "open-ended",
+        "question": "What is a DDoS attack?",
+        "answer": "In a distributed denial-of-service attack (DDoS attack), the incoming traffic flooding the victim originates from many different sources.",
+        "fact": "It is one of the more common and effective ways of attacking websites."
+      },
+      {
+        "number": 15,
+        "category": "Implement Azure Security",
+        "tags": ["Encryption", "Virtual Machines"],
+        "type": "true-false",
+        "question": "Does Azure provide protection from DDoS attacks?",
+        "answer": true,
+        "fact": "Azure DDoS protection and application best practices provide a defense against DDoS attacks."
+      },
     ]
 }
