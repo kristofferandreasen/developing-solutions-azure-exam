@@ -1,5 +1,6 @@
 {
     "module": {
+      "exam": "AZ-203: Developing Solutions for Azure",
       "name": "Develop for Azure Storage"
     },
     "questions": [

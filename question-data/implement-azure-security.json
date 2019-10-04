@@ -1,40 +1,41 @@
 {
     "module": {
+      "exam": "AZ-203: Developing Solutions for Azure",
       "name": "Implement Azure Security"
     },
     "questions": [
       {
         "number": 1,
         "category": "Implement Azure Security",
-        "tags": ["Storage", "Administration"],
+        "tags": ["Active Directory", "Identity"],
         "type": "multiple-choice",
-        "question": "How many access keys are provided for accessing your Azure storage account?",
+        "question": "What is Azure Active Directory?",
         "answers": [
-          "1",
-          "2",
-          "3",
-          "4"
+          "Single Sign-On (SSO) Directory",
+          "Service Principal Directory",
+          "An overview of Azure Resources",
+          "Cloud-based Identity Service"
         ],
-        "correct_answer": 2,
-        "fact": "Each storage account has two access keys. This lets you follow the best-practice guideline of periodically replacing the key used by your applications without incurring downtime."
+        "correct_answer": 4,
+        "fact": "Azure Active Directory (AD) is a cloud-based identity service. It contains all functionality needed to manage identities for a company."
       },
       {
         "number": 2,
         "category": "Implement Azure Security",
-        "tags": ["", ""],
+        "tags": ["Theory", "Principles"],
         "type": "open-ended",
-        "question": "What are blobs?",
-        "answer": "A Binary Large OBject (BLOB) is a collection of binary data.",
-        "fact": "Blobs are files for the cloud. Apps work with blobs in much the same way as they would work with files on a disk, like reading and writing data. However, unlike a local file, blobs can be reached from anywhere with an internet connection."
+        "question": "What constitutes the common principles used to define a security posture? Commonly known as CIA.",
+        "answer": "Confidentiality - Integrity - Availability.",
+        "fact": "Confidentiality - Principle of least privilege. Integrity - The prevention of unauthorized changes to information at rest or in transit. Availability - Ensure services are available to authorized users."
       },
       {
         "number": 3,
         "category": "Implement Azure Security",
-        "tags": ["Naming", "Storage"],
+        "tags": ["Cloud", "Responsibility"],
         "type": "true-false",
-        "question": "Should the name of a Storage Account be globally unique?",
-        "answer": true,
-        "fact": "Naming conventions are important to keep an overview of resources in Azure."
+        "question": "When developing cloud applications, the cloud provider will take care of all security concerns?",
+        "answer": false,
+        "fact": "False. Moving to the cloud does offload some responsibilities to the cloud provider, but a model of shared responsibility is still in effect."
       }
     ]
 }
