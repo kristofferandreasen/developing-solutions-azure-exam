@@ -156,6 +156,6 @@
         "question": "Does Azure provide protection from DDoS attacks?",
         "answer": true,
         "fact": "Azure DDoS protection and application best practices provide a defense against DDoS attacks."
-      },
+      }
     ]
 }
